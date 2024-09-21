@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(48, 48, 48);
+    color: rgb(239, 235, 228);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    background-color: rgb(239, 235, 228);
+    color: rgb(48, 48, 48);
+    padding: 10px;
+    border-radius: 8px;
+    width: 40%;
+    height: 40%;
+    margin: auto;
+}
+
+#botao {
+    background-color: rgb(12, 112, 242);
+    color: rgb(239, 235, 228);
+    border: 0;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.form {
+    margin: 10px;
+    border: 0;
+    border-radius: 10px;
+    height: 20px;
+    width: 180px;
+}
+
+/* Estilização para mobile */
+@media (max-width: 768px) {
+    section {
+        width: 80%;
+        height: auto;
+    }
+
+    #botao {
+        width: 100px;
+        height: 30px;
+    }
+
+    .form {
+        width: 100%;
+        height: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    section {
+        width: 90%;
+        padding: 20px;
+    }
+
+    #botao {
+        width: 100%;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .form {
+        width: 100%;
+        height: 40px;
+        font-size: 16px;
+    }
+}
